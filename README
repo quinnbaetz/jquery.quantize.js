@@ -1,0 +1,6 @@
+usage
+
+$.quantize("person", 1); //person
+$.quantize("person", 2); //people
+$.quantize(["person", "has"], 2); //people have
+$.quantize(["person", "has"], 2, ","); //people,have
